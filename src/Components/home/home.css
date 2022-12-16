@@ -1,0 +1,17 @@
+.home{
+   display: flex;
+   /* width: 90vw; */
+   padding: 0 1vw;
+   flex-direction: column;
+   align-items: flex-start;
+   /* background-color: blueviolet; */
+}
+.home_items{
+   display: flex;
+   /* width: 80vw; */
+   /* background-color: rgb(255, 127, 189); */
+   overflow: hidden;
+   justify-content: space-evenly;
+   overflow-wrap:break-word;
+   flex-wrap: wrap;
+}
