@@ -1,0 +1,21 @@
+.header{
+   width: 100vw;
+   /* background-color: rgb(51, 246, 7); */
+   border-bottom: 2px solid #E9EBED;
+   height: 10vh;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+.header_img{
+   height: 5vh;
+   border-radius: 10px;
+   margin-left: 2vw;
+}
+.header_searchBx{
+   background-color: aqua;
+   height: 2vh;
+   width: 10vw;
+   margin-right: 2vw;
+}
