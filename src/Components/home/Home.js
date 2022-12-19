@@ -6,12 +6,6 @@ function Home({ data, modalData, setModalData, setIsOpen }) {
   const url =
     "https://api.themoviedb.org/3/movie/550?api_key=ba71b8936e3a0054c078595cbbb6bbc4";
 
-  // const movie = data.results[0];
-
-  useEffect(() => {
-    // console.log(data.results[0]);
-  });
-
   return (
     <div className="home">
       {data ? (

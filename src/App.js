@@ -38,7 +38,7 @@ function App() {
       .then((res) => {
         setData(res.data);
       });
-  }, [data]);
+  },[]);
 
   function openModal() {
     setIsOpen(true);
