@@ -33,7 +33,7 @@ box-shadow: 2px 4px 10px 0px rgba(0,0,0,0.55);
    border-radius: 50%;
    border: 2px solid black;
    padding: 2px;
-   z-index: 1000; 
+   /* z-index: 1000;  */
 }
 .container_ratingBx>span{
    font-size: 0.9rem;

@@ -18,9 +18,9 @@
 }
 .header_searchBx{
    display: flex;
-   height: 4vh;
-   width: 10vw;
-   margin-right: 2vw;
+   height: 5vh;
+   width: 15vw;
+   margin-right: 4vw;
    border: 1px solid #C0C4CC;
    border-radius: 2px;
    align-items: center;
@@ -35,7 +35,7 @@
 .header_searchBx>input{
    font-family: 'Inter';
    font-weight: 400;
-   font-size: 12px;
+   font-size: 16px;
 
    display: flex;
    align-items: center;
