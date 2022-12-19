@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./home.css";
 import Container from "../Movie_container/Container";
 
-function Home({ data, modalData, setModalData, setIsOpen}) {
+function Home({ data, modalData, setModalData, setIsOpen }) {
   const url =
     "https://api.themoviedb.org/3/movie/550?api_key=ba71b8936e3a0054c078595cbbb6bbc4";
 
@@ -26,9 +26,9 @@ function Home({ data, modalData, setModalData, setIsOpen}) {
                   title={data.original_title}
                   posterImg={data.poster_path}
                   key={data.id}
-                  data = {data}
-                  setModalData = {setModalData}
-                  setIsOpen = {setIsOpen}
+                  data={data}
+                  setModalData={setModalData}
+                  setIsOpen={setIsOpen}
                 />
               ))}
           </div>

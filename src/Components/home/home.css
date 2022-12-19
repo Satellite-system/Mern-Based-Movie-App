@@ -1,4 +1,4 @@
-.home{
+.home {
    display: flex;
    /* width: 90vw; */
    padding: 0 1vw;
@@ -6,16 +6,18 @@
    align-items: flex-start;
    /* background-color: blueviolet; */
 }
-.home>h2{
+
+.home>h2 {
    margin-left: 3vw;
 }
-.home_items{
+
+.home_items {
    display: flex;
    /* width: 80vw; */
    width: 100%;
    /* background-color: rgb(255, 127, 189); */
    overflow: hidden;
    justify-content: space-evenly;
-   overflow-wrap:break-word;
+   overflow-wrap: break-word;
    flex-wrap: wrap;
 }
