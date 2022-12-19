@@ -17,6 +17,9 @@ box-shadow: 2px 4px 10px 0px rgba(0,0,0,0.55);
    display: flex;
    background-color: brown;
 }
+.container_upper:hover{
+   cursor: pointer;
+}
 .container_upper>img{
    width: 100%;
    object-fit: cover;

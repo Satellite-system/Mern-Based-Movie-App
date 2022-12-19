@@ -9,6 +9,7 @@
 .home_items{
    display: flex;
    /* width: 80vw; */
+   width: 100%;
    /* background-color: rgb(255, 127, 189); */
    overflow: hidden;
    justify-content: space-evenly;

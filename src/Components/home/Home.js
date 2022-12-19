@@ -1,23 +1,40 @@
-import React from 'react'
-import './home.css'
-import Container from '../Movie_container/Container'
+import React, { useEffect } from "react";
+import "./home.css";
+import Container from "../Movie_container/Container";
 
-function Home() {
+function Home({ data }) {
+  const url =
+    "https://api.themoviedb.org/3/movie/550?api_key=ba71b8936e3a0054c078595cbbb6bbc4";
+
+  // const movie = data.results[0];
+
+  useEffect(() => {
+    // console.log(data.results[0]);
+  });
+
   return (
-    <div className='home'>
-      <h2>Most Recent Movies</h2>
-       <div className="home_items">
-        <Container/>
-         <Container/>
-         <Container/>
-         <Container/>
-         <Container/>
-         <Container/>
-         <Container/>
-         <Container/>
-      </div> 
+    <div className="home">
+      {data ? (
+        <>
+          <h2>Most Recent Movies</h2>
+          <div className="home_items">
+            {data &&
+              data.results.length > 0 &&
+              data.results.map((data) => (
+                <Container
+                  rate={data.vote_average}
+                  title={data.original_title}
+                  posterImg={data.poster_path}
+                  key={data.id}
+                />
+              ))}
+          </div>
+        </>
+      ) : (
+        <h4>Loading......</h4>
+      )}
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

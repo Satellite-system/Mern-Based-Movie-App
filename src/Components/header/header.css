@@ -13,9 +13,37 @@
    border-radius: 10px;
    margin-left: 2vw;
 }
+.header_img:hover{
+   cursor: pointer;
+}
 .header_searchBx{
-   background-color: aqua;
-   height: 2vh;
+   display: flex;
+   height: 4vh;
    width: 10vw;
    margin-right: 2vw;
+   border: 1px solid #C0C4CC;
+   border-radius: 2px;
+   align-items: center;
+   padding: 0 0.4vw;
+}
+.header_searchBx>img{
+   height: 50%;
+}
+.header_searchBx>img:hover{
+   cursor: pointer;
+}
+.header_searchBx>input{
+   font-family: 'Inter';
+   font-weight: 400;
+   font-size: 12px;
+
+   display: flex;
+   align-items: center;
+   letter-spacing: -0.01em;
+   margin-left: 0.8vw;
+   
+   border: none;
+   width: 100%;
+   outline-style: none;
+   /* background-color: aquamarine; */
 }
