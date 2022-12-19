@@ -1,12 +1,18 @@
 import React from 'react'
 import './container.css'
 
-function Container({rate,title, posterImg}) {
+function Container({rate,title, posterImg, data, setIsOpen, setModalData}) {
   const link = "https://image.tmdb.org/t/p/original";
 
   const url = link + posterImg;
+
+  const onClick = () =>{
+    setModalData(data);
+    setIsOpen(true);
+  }
+
   return (
-    <div className='Container'>
+    <div className='Container' onClick={onClick}>
       <div className="container_upper" >
         <img src={url} alt="Poster Image"/>
         <div className="container_ratingBx">

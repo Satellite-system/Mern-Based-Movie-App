@@ -9,10 +9,6 @@ function Header({data, setData}) {
 
   const API_KEY = process.env.REACT_APP_API_KEY;
 
-  useEffect(() => {
-    // console.log("API Key: ", API_KEY)
-  })
-
   const handleChange = (e)=>{
     setMovie(e.target.value)
   }

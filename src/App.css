@@ -5,3 +5,35 @@
   max-width: 100%;
   overflow-x: hidden;
 }
+.AppUpperBx{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.AppUpperBx>img{
+  /* background: none;
+  width: 1%; */
+  height: 5vh;
+}
+.AppUpperBx>img:hover{
+  cursor: pointer;
+}
+.AppCenterBx{
+  display: flex;
+}
+.AppCenterBx>img{
+  max-height: 50vh;
+  width: auto;
+  height: auto;
+}
+.AppRightBx{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2vw;
+}
+.AppRightBx>p{
+  line-height: 17px;
+
+  color: #000000;
+}
