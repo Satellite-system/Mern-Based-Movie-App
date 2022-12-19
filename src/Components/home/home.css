@@ -6,6 +6,9 @@
    align-items: flex-start;
    /* background-color: blueviolet; */
 }
+.home>h2{
+   margin-left: 3vw;
+}
 .home_items{
    display: flex;
    /* width: 80vw; */
