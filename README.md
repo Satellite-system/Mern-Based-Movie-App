@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to React Based Movie App 👋</h1>
 <p align="center">
-  <a href="https://github.com/Satellite-system/Portfolio">
+  <a href="https://github.com/Satellite-system/React-Node-Based-Movie-App">
     <img src="public/favicon-96x96.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -49,16 +49,18 @@
 
 ## About The Project
 
-![Screen Shot](src/img/screenshots/adarsh-urmaliya.netlify.app-2022.10%20(1).png)
-![Screen Shot](src/img/screenshots/adarsh-urmaliya.netlify.app-2022.10%20(2).png)
+![Screen Shot](src/Assets/Screenshots/screenshot-zakka-movie-app.netlify.app-2022.12.21-22_55_34.png)
+![Screen Shot](src/Assets/Screenshots/screenshot-zakka-movie-app.netlify.app-2022.12.21-22_59_05.png)
 
-There are many great ReadME templates available on GitHub, however, I struggled to find any ReadME generators. Throughout my open source project contributions, I've had to spend numerous hours editing README files which I could've spent developing instead. This paired with me often forgetting to change links, titles and sections made me look for a README generator.
+This a React Based Movie Website.In this website it has most recently released movies in its home page. It also has a functionality to search new movies by the keyword entered on the search bar.
 
-With this open-source project, I hope to allow you to save as much time as it saved me, the benefits of this project are huge and here's why:
+In this project <strong href="https://developers.themoviedb.org/3/getting-started/introduction">The Movie Database Api</strong> has been used.
 
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+Followings are some key Features of this websote:
+
+* Most recently released movie on Home page.
+* Search Movie with the Keywords
+* Responsive Design :smile:
 
 Feel free to suggest changes by opening a new issue, or if you want to implement your own, feel free to fork this repo and create a pull request.
 
@@ -74,13 +76,12 @@ Feel free to suggest changes by opening a new issue, or if you want to implement
 ## Built With
 
 * [JavaScript](https://www.javascript.com/)
-* [VueJS](https://vuejs.org/)
-* [FrameJs]()
+* [Css](https://vuejs.org/)
+* [Movie DB API](https://developers.themoviedb.org/3/getting-started/introduction)
 
 ## Getting Started
 
-This is a Portfolio Website Project.
-To get a local copy up and running follow these simple example steps.
+This is a Movie Website.
 
 ### Prerequisites
 
@@ -91,7 +92,7 @@ This program has no pre-requisites
 1. Clone the repo
 
 ```sh
-git clone https://github.com/Satellite-system/Portfolio.git
+git clone https://github.com/Satellite-system/React-Node-Based-Movie-App.git
 ```
 
 2. Open The src Folder
@@ -102,15 +103,15 @@ git clone https://github.com/Satellite-system/Portfolio.git
 
 ## Roadmap
 
-See the [open issues](https://github.com/Satellite-system/Portfolio/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Satellite-system/React-Node-Based-Movie-App/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/Satellite-system/Portfolio/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
+* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/Satellite-system/React-Node-Based-Movie-App/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
 * Please make sure you check your spelling and grammar.
 * Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/Satellite-system/Portfolio/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
+* Please also read through the [Code Of Conduct](https://github.com/Satellite-system/React-Node-Based-Movie-App/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
 ### Creating A Pull Request
 
@@ -161,6 +162,5 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Acknowledgements
 
-* [ZainRk](https://github.com/ZainRk/Personal-Portfolio-React)
 * [ShaanCoding](https://github.com/ShaanCoding/ReadME-Generator/tree/main#table-of-contents)
 * [ImgShields](https://shields.io/)
